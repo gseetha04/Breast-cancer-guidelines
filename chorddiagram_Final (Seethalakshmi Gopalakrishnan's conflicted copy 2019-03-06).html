@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+    div.a {
+  word-wrap: break-word;
+          }
+      </style>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"> 
+    <meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link href="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.css" rel="stylesheet"> 
+    <!-- MiniPreview stuff here -->
+    <link href="./jquery.minipreview.css" rel="stylesheet">
+    <script src="./jquery.minipreview.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('#p1 a').miniPreview({ prefetch: 'pageload' });
+        $('#p2 a').miniPreview({ prefetch: 'parenthover' });
+        $('#p3 a').miniPreview({ prefetch: 'none' });
+        });
+    </script> <script src="https://rawgit.com/shaneapen/Image-Preview-for-Links/master/image_preview_for_links.js"></script>
+  </head>
+
+<body>   
+
+     
+<div class="details">
+             <h1>Cardiovascular <br>diagonsis</h1>
+
+<div id="yearbuttons">
+              <button id="tentwelve" class="current">cardio-Score</button>
+              <button id="sevennine" class="">cardiovascular_ranks</button>
+              <button id="cosine_word_embedding" class="">cardiovascular_Cosine</button>
+              
+              
+</div>
+      <!--This script is to highlight each year button while on it-->
+  <script type="text/javascript" src="./chord.js">
+                         $('#yearbuttons button').on('click', function(){
+                              $('button.current').removeClass('current');
+                              $(this).addClass('current');
+                         });
+  </script>
+<!--The data comes from FAO Yearbooks on fisheries http://www.fao.org/fishery/publications/yearbooks/en-->
+<!--Created by Luz K. Molina, www.databayou.com-->
+    <div id="legend">
+
+      <table class="table1">
+                <tr>
+          <td bgcolor="#FFFFFF" width="10%">
+                    </td>
+                    <td width="90%"><h3>Cardiovascular Guidelines</h3>
+                     </td>  
+        </tr>
+        <tr>
+          <td bgcolor="#FF00FF" width="10%">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325449/" target="_blank"  href =" " title="Managing cardiometabolic risk in primary care">16575896</a>
+                    </td> 
+                    <td> <input checked="true" type="checkbox" id ="a1" onclick="change(this)" for="a1">16575896</input></td>
+                    <td><p id="p1"><a href="Barchart.html">Barchart(16575896)</a></p></td>
+
+        </tr> 
+                <tr>
+          <td bgcolor="#0000FF">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3012210" target="_blank" href = " " title="European guidelines on managing adverse effects of medication for ADHD">18048474</a>   
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a2" onclick="change(this)" for="a2">18048474</input></td>
+                     <td><p id="p1"><a href="barchart18048474.html">Barchart(18048474)</a></p></td>
+        </tr>
+                <tr>
+          <td bgcolor="#6495ED">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2556074" target="_blank" href = " " title="Reporting Genetic Results in Research Studies: Summary and Recommendations of an NHLBI Working Group">19257889</a>
+                         
+                     </td> 
+                     <td> <input checked="true" type="checkbox" id ="a3" onclick="change(this)" for="a3">19257889</input></td>
+                    <td><p id="p1"><a href="barchart19257889.html">Barchart(19257889)</a></p></td> 
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#F4A460">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2952401" target="_blank" href = " " title="European League Against Rheumatism recommendations for monitoring patients with systemic lupus erythematosus in clinical practice and in observational studies">19892750</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a4" onclick="change(this)" for="a4">19892750</input></td>
+                    <td><p id="p1"><a href="barchart19892750.html">Barchart(19892750)</a></p></td>
+        </tr>
+                <tr>
+          <td bgcolor="#8E8E38">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4975132" target="_blank" href = " " title="Clinical practice guideline for the prevention, early detection, diagnosis, management and follow up of type 2 diabetes mellitus in adults">19898693</a>
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a5" onclick="change(this)" for="a5">19898693</input></td>
+                       <td><p id="p1"><a href="barchart19898693.html">Barchart(19898693)</a></p></td>
+        </tr>
+                <tr>
+          <td bgcolor="#C6E2FF">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2996543" target="_blank" href = " " title="ASCI 2010 standardized practice protocol for cardiac magnetic resonance imaging: a report of the Asian society of cardiovascular imaging cardiac computed tomography and cardiac magnetic resonance imaging guideline working group">20734234</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a6" onclick="change(this)" for="a6">20734234</input></td>
+                     <td><p id="p1"><a href="barchart20734234.html">Barchart(20734234)</a></p></td>
+        </tr>
+                <tr>
+          <td bgcolor="#D8BFD8">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4957476" target="_blank" href = " " title="The First European Evidence-based Consensus on Extra-intestinal Manifestations in Inflammatory Bowel Disease">20924794</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a7" onclick="change(this)" for="a7">20924794</input></td>
+                     <td><p id="p1"><a href="barchart20924794.html">Barchart(20924794)</a></p></td>
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#97FFFF">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5013107" target="_blank" href = " " title="Cardiac rehabilitation delivery model for low-resource settings">20931289</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a8" onclick="change(this)" for="a8">20931289</input></td>
+                     <td><p id="p1"><a href="barchart20931289.html">Barchart(20931289)</a></p></td>
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#00EEEE">
+                    </td></td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5319462" target="_blank" href = " " title="7th Brazilian Guideline of Arterial Hypertension: Chapter 4 - Cardiovascular Risk Stratification">21042924</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a9" onclick="change(this)" for="a9">21042924</input></td>
+                    <td><p id="p1"><a href="barchart21042924.html">Barchart(21042924)</a></p></td>
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#03A89E">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4536582" target="_blank" href = " " title="Expert Panel on Integrated Guidelines for Cardiovascular Health and Risk Reduction in Children and Adolescents: Summary Report">22084329</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a10" onclick="change(this)" for="a10">22084329</input></td>
+
+                    <td><p id="p1"><a href="barchart22084329.html">Barchart(22084329)</a></p></td>
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#66CDAA">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2776560"target="_blank" href = " " title="Cardiac risk assessment before the use of stimulant medications in children and youth: A joint position statement by the Canadian Paediatric Society, the Canadian Cardiovascular Society, and the Canadian Academy of Child and Adolescent Psychiatry">22611605</a>
+                         
+                     </td> 
+                      <td> <input checked="true" type="checkbox" id ="a11" onclick="change(this)" for="a11">22611605</input></td>
+                     <td><p id="p1"><a href="barchart22611605.html">Barchart(22611605)</a></p></td>
+                      
+        </tr>
+                <tr>
+          <td bgcolor="#00FF7F">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3695769" target="_blank" href = " " title="Standardized image interpretation and post processing in cardiovascular magnetic resonance: Society for Cardiovascular Magnetic Resonance (SCMR) Board of Trustees Task Force on Standardized Post Processing">23634753</a>
+                         
+                     </td>  
+                      <td> <input checked="true" type="checkbox" id ="a12" onclick="change(this)" for="a12">23634753</input></td>
+                     <td><p id="p1"><a href="barchart23634753.html">Barchart(23634753)</a></p></td>
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#800080">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4234715" target="_blank" href = " " title="Canadian Cardiovascular Harmonized National Guidelines Endeavour (C-CHANGE): 2014 update">24103764</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a13" onclick="change(this)" for="a13">24103764</input></td>
+                     <td><p id="p1"><a href="barchart24103764.html">Barchart(24103764)</a></p></td>
+        </tr>                
+                <tr>
+          <td bgcolor="#BF3EFF">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3252886" target="_blank" href = " " title="ASCI 2010 appropriateness criteria for cardiac magnetic resonance imaging: a report of the Asian Society of Cardiovascular Imaging cardiac computed tomography and cardiac magnetic resonance imaging guideline working group">25332362</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a14" onclick="change(this)" for="a14">25332362</input></td>
+                     <td><p id="p1"><a href="barchart25332362.html">Barchart(25332362)</a></p></td>
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#912CEE">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5137383"target="_blank" href = " " title="III SBC Guidelines on the Analysis and Issuance of Electrocardiographic Reports - Executive Summary">25920443</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a15" onclick="change(this)" for="a15">25920443</input></td>
+                    <td><p id="p1"><a href="barchart25920443.html">Barchart(25920443)</a></p></td>
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#EE82EE">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2662831" target="_blank" href = " " title="Society for Cardiovascular Magnetic Resonance guidelines for reporting cardiovascular magnetic resonance examinations">26614685</a>
+                         
+                     </td> 
+                     <td> <input checked="true" type="checkbox" id ="a16" onclick="change(this)" for="a16">26614685</input></td>
+                     <td><p id="p1"><a href="barchart26614685.html ">Barchart(26614685)</a></p></td>
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#FFFF00">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3851953"target="_blank" href = " " title="Standardized cardiovascular magnetic resonance (CMR) protocols 2013 update">27181874</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a17" onclick="change(this)" for="a17">27181874</input></td>
+                     <td><p id="p1"><a href="barchart27181874.html">Barchart(27181874)</a></p></td>
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#FF7256">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3059094" target="_blank" href = " " title="ACCF/AHA 2007 Clinical Competence Statement on Vascular Imaging With Computed Tomography and Magnetic Resonance">27546934</a>
+                         
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a18" onclick="change(this)" for="a18">27546934</input></td>
+                     <td><p id="p1"><a href=" barchart27546934.html">Barchart(27546934)</a></p></td>
+                    
+                     
+        </tr>
+                <tr>
+          <td bgcolor="#FF7F24">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4475456" target="_blank" href = " " title="2015 Guidelines for Establishing Genetically Modified Rat Models for Cardiovascular Research">27819383</a>
+                         
+                     </td> 
+                     <td> <input checked="true" type="checkbox" id ="a19" onclick="change(this)" for="a19">27819383</input></td>
+                     <td><p id="p1"><a href="barchart27819383.html">Barchart(27819383)</a></p></td>
+                      
+        </tr>
+                <tr>
+          <td bgcolor="#FF3030">
+                    </td>
+                    <td><a class="two" id="NA" href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2996539" target="_blank" href = " " title="ASCI 2010 contrast media guideline for cardiac imaging: a report of the Asian Society of Cardiovascular Imaging cardiac computed tomography and cardiac magnetic resonance imaging guideline working group">27982266</a>
+                     </td>  
+                     <td> <input checked="true" type="checkbox" id ="a20" onclick="change(this)" for="a20">27982266</input></td>
+                     <td><p id="p1"><a href="barchart27982266.html">Barchart(27982266)</a></p></td>
+                     
+        </tr>
+               
+             </table>
+
+         </div> 
+       
+</div>
+
+  <div id="chart_placeholder"></div>
+    <script type="text/javascript" src="./chord.js"></script>
+
+
+</body>
+</html>
